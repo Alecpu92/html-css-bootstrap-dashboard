@@ -3,9 +3,52 @@
     box-sizing: border-box;
     padding: 0;
 }
+
+/* impostazione nav */
+
 #container_nav{
     border: 1px solid black;
     height: 50px;
     width: 100%;
     padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+i{
+    padding: 10px;
+}
+#bell{
+    color: gold;
+}
+
+/* impostazione main */
+
+#upper{
+    width: 100%;
+    height: calc(100vh - 10px);
+    background-color: black;
+    display: flex;
+
+}
+#sider{
+    height: 100%;
+    width: 150px;
+    background-color: rgb(21, 21, 51);
+    background-image: url(../img/sidebar-bg.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+main{
+    width: calc(100% - 150px);
+    height: 100%;
+    background-color: yellow;
+
+}
+#container_header{
+    width: 100%;
+    height: 75px;
+    background-color: lightseagreen;
 }
