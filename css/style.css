@@ -50,5 +50,15 @@ main{
 #container_header{
     width: 100%;
     height: 75px;
-    background-color: lightseagreen;
+    background-color: rgb(46, 122, 244);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;    
 }
+.bread{
+    font-size: 10px;
+    color: white;
+    margin: 5px;
+}
+
