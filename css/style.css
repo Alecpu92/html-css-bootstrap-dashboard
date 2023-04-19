@@ -36,7 +36,34 @@ i{
 #center{
     height: 100%;
     width: calc(100% - 75px);
-    background-color: green;
+    background-color:white;
+}
+#container_stud{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(12, 145, 240);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    font-size: 10px;
+    padding: 10px;
+}
+#container_item{
+    border: black 1px solid;
+    height:calc(100% - 100px);
+    
+}
+.col-8{
+    border: 1px solid black;
+    text-align: justify;
+}
+.col-4{
+    border: 1px solid black;
+    text-align: justify;
+}
+ul{
+    list-style-type: none;
 }
 
 
